@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+body{
+	background-color:#dec37a;
+	
+	text-align :center;
+	padding-top:10%;
+}
+
+.index{
+	background-color:#ff0080;
+	
+	height:350px;
+	margin-right:25%;
+	margin-left:25%;
+    padding-top:5%;
+    
+}
+#btn{
+	background-color:#67e858;
+	border-radius:15%;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration page</title>
+<style type="text/css">
+   body{
+   
+   background-Color:aqua;
+   justify-content:center;
+   text-align:center;
+   padding-top:10%;
+   margin:auto;
+   
+   }
+   
+</style>
+</head>
+<body>
+<h1>Registration page</h1>
+<form action="/registration" method="post">
+
+<label>User Name:</label>
+<input type="text" name="username"><br>
+<label>Email:</label>
+<input type="email" name="email"><br>
+<label> Password:</label>
+<input type="password" name="password"><br>
+<label>Gender:</label>
+<input type="radio" name="gender" value="male"><label>Male</label>
+<input type="radio" name="gender" value="female"><label>female</label>
+<input type="radio" name="gender" value="other"><label>other</label><br>
+<label>Role:</label>
+<input type="radio" name="role" value="admin"><label>Admin</label>
+<input type="radio" name="role" value="customer"><label>Customer</label>
+
+<br>
+<label>Address:</label>
+<textarea name="address"></textarea>
+<br>
+
+<button type="submit">Register</button>
+
+</form>
+
+</body>
+</html>
